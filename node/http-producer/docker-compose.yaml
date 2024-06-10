@@ -7,7 +7,7 @@ services:
     volumes:
       - ./benthos.yaml:/benthos.yaml
     environment:
-      CONSUMER_ADDRESS: "0.0.0.0:32650"
+      CONSUMER_ADDRESS: "0.0.0.0:32652"
       CONSUMER_PATH: "/post"
     command: "-c /benthos.yaml"
     network_mode: host
