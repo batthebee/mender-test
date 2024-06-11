@@ -51,12 +51,6 @@ jobs:
         chmod +x mender-cli
         sudo mv mender-cli /usr/local/bin/mender-cli
 
-    - name: Set up application generator
-      run: |
-        curl -L https://example.com/path-to-app-gen -o app-gen
-        chmod +x app-gen
-        sudo mv app-gen /usr/local/bin/app-gen
-
     - name: Build and upload Mender artifacts
       env:
         ARTIFACT_NAME: mendertemplate
