@@ -1,5 +1,0 @@
-# Lade mehrere Docker Compose Dateien
-docker_compose([
-    # 'messaging/docker-compose.yaml',
-    'http-consumer/docker-compose.yaml'
-])
